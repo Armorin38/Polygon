@@ -1,0 +1,83 @@
+/* переменные */
+:root{
+    --content-height: 115vh; --firstDesignColorBlack: #272727; --secondDesignColorOrange: #FF652F;
+    --thirdDesignColorGrey: #747474; --transStandSetting: all 0.3s; --standBoxShadowSet: 0.7vw 0.4vh 10px black;
+    --standTextShadow:2px 0px 2px rgba(0, 0, 0, 0.8); --connectionFontFamilySCP:'Source Code Pro', monospace;
+}
+/* end переменные */
+.background-glass{
+    display: block;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(35, 35, 35, 0.516);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+}
+.search-back{
+    height: 86vh;
+    width: 70vw;
+    background-color: rgb(186, 186, 186);
+    border-radius: 1rem;
+    box-shadow: 0.3vw 0.2vh 10px black;
+    margin-left: 15%;
+    margin-top: 3%;
+
+    /* display: block;
+    position: fixed; */
+}
+.close-div{
+    height: 2em;
+    width: 2em;
+    background-image: url('../img/exit_img.png');
+    background-size: 2em 2em;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: var(--transStandSetting);
+}
+.close-div:hover{
+    -webkit-transform: scale(0.9,0.9);
+    /* transform: rotate(180deg); */
+}
+.search-line{
+    height: 10vh;
+    width: 100%;
+    background-color: var(--firstDesignColorBlack);
+    box-shadow: 0.3vw 0.2vh 10px black;
+    border-radius: 1rem;
+}
+.searchTerm{
+    height: 4vh;
+    width: 30vw;
+    margin-left: 20%;
+    margin-top: 1.5%;
+    border: 2px solid var(--secondDesignColorOrange);
+    
+}
+.search-symbol{
+    height: 4vh;
+    width: 8vh;
+    background-color: var(--secondDesignColorOrange);
+    border: 2px solid var(--secondDesignColorOrange)F;
+    color: white;
+    font-family: var(--connectionFontFamilySCP);
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: var(--transStandSetting);
+}
+.search-symbol:hover{
+    -webkit-transform: scale(1.1,1.1);
+}
+.search-results{
+    height: 74vh;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1vh;
+    background-color: transparent;
+    border-radius: 1rem;
+    overflow: auto;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

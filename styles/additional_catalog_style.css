@@ -1,0 +1,143 @@
+/* переменные */
+:root{
+    --content-height: 115vh; --firstDesignColorBlack: #272727; --secondDesignColorOrange: #FF652F;
+    --thirdDesignColorGrey: #747474; --transStandSetting: all 0.3s; --standBoxShadowSet: 0.7vw 0.4vh 10px black;
+    --standTextShadow:2px 0px 2px rgba(0, 0, 0, 0.8); --connectionFontFamilySCP:'Source Code Pro', monospace;
+}
+/* end переменные */
+a{
+    text-decoration: none;
+    color: white;
+}
+a:active{
+    text-decoration: none;
+    color: white;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+.lots-window{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    height: 87.15%;
+    width: 100%;
+    margin-top: 0vh;
+    overflow: auto;
+    word-wrap: break-word;
+    background-color: transparent;
+    border-width: 2px 0 0 0;
+    border-color: var(--firstDesignColorBlack);
+    scrollbar-width: thin;
+    scrollbar-color: #272727e9 #7474744a;
+}
+.lots-window::-webkit-scrollbar {
+    
+    width: 8px;
+}
+.lots-window::-webkit-scrollbar-track {
+   background: #7474744a;
+   border-radius: 1rem;
+}
+.lots-window::-webkit-scrollbar-thumb {
+   background-color: #272727e9;
+   border-radius: 1rem;
+    
+}
+*::-webkit-scrollbar {
+    
+    width: 8px;
+}
+*::-webkit-scrollbar-track {
+   background: #27272733;
+   border-radius: 1rem;
+}
+*::-webkit-scrollbar-thumb {
+   background-color: #747474dd;
+   border-radius: 1rem;
+    
+}
+
+
+.lot{
+    height: auto;
+    width: 20%;
+    padding-bottom: 3vh;
+    background-color: rgb(145, 145, 145);
+    box-shadow: 0.7vw 0.4vh 10px black;
+    margin-left: 3vw;
+    margin-right: 1vw;
+    margin-top: 2vh;
+    border-radius: 1rem;
+    transition: var(--transStandSetting);
+    
+}
+.lot:hover{
+    -webkit-transform: scale(1.04,1.04);
+}
+#lot-img{
+    width: 100%;
+    height: auto;
+    border-radius: 1rem 1rem 0 0;
+    margin-bottom: 2vh;
+}
+.lot-name{
+    color: white;
+    font-size: 2vh;
+    
+    margin-left: 1vw;
+    text-shadow: 2px 0px 2px rgba(0, 0, 0, 0.8);
+    cursor: default;
+}
+.lot-btn{
+    width: 80%;
+    height: 12%;
+    margin-left: 1vw;
+    margin-top: 1vh;
+    cursor: pointer;
+    background-color: var(--secondDesignColorOrange);
+    box-shadow: 0.4vw 0.4vh 5px black;
+    color: white;
+    border-color: transparent;
+    border-radius: 0.4rem;
+    transition: var(--transStandSetting);
+}
+.lot-btn:hover{
+    -webkit-transform: scale(1.2, 1.2)
+     skew(-5deg, 5deg);
+}
+.author, .author-name{
+    color: white;
+    font-size: 2vh;
+    text-shadow: 2px 0px 2px rgba(0, 0, 0, 0.8);
+    cursor: default;
+}
+.author-name{
+    font-weight: bold;
+}
+.lot-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* стили поиска */
+#searchButton{
+    height: 8vh;
+    width: 8vh;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    background-image: url('../img/Search_icon1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    transition: var(--transStandSetting);
+}
+#searchButton:hover{
+    background-image: url('../img/Search_icon2.png');
+    -webkit-transform: scale(0.9,0.9);
+}

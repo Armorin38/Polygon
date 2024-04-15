@@ -1,0 +1,116 @@
+:root{
+    --content-height: 115vh; --firstDesignColorBlack: #272727; --secondDesignColorOrange: #FF652F;
+    --thirdDesignColorGrey: #747474; --transStandSetting: all 0.3s; --standBoxShadowSet: 0.7vw 0.4vh 10px black;
+    --standTextShadow:2px 0px 2px rgba(0, 0, 0, 0.8); --connectionFontFamilySCP:'Source Code Pro', monospace;
+}
+#heading-print-lots{
+    width: 100%;
+    height: 10%;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 2vh;
+}
+#heading-print-lots span{
+    color: var(--secondDesignColorOrange);
+    text-shadow: var(--standTextShadow);
+    font-size: 7vh;
+    font-family: var(--connectionFontFamilySCP);
+    font-weight: bold;
+    cursor: default;
+    transition: var(--transStandSetting);
+}
+#heading-print-lots span:hover{
+    font-size: 6.8vh;
+}
+
+#window-for-obj{
+    width: 100%;
+    height: 50%;
+    background-color: transparent;
+    border-radius: 1rem;
+    overflow: auto;
+    word-wrap: break-word;
+    margin-bottom: 5vh;
+}
+
+
+.download-link-2{
+    color: white;
+    text-shadow: 2px 0px 2px rgba(0, 0, 0, 0.8);
+    box-shadow: var(--standBoxShadowSet);
+    font-size: 3vh;
+    padding: 5% 5% 5% 5%;
+    background-color: var(--secondDesignColorOrange);
+    border: 2px solid var(--firstDesignColorBlack);
+    border-radius: 2rem;
+    transition: var(--transStandSetting);
+    cursor: pointer;
+  }
+  .download-link-2:hover{
+    transform: scale(1.1,1.1);
+    font-size: 3vh;
+    box-shadow: 0.4vw 0.2vh 4px black;
+  }
+
+  .lot-namePrint, .autor-lotPrint, .lot-sizePrint{
+    color: white;
+    text-shadow: 2px 0px 2px rgba(0, 0, 0, 0.8);
+    font-size: 2vw;
+    margin-left: 2vw;
+    
+  }
+  .info-lotPrint{
+    width: 43%;
+    height: 25vh;
+    background-color: var(--firstDesignColorBlack);
+    box-shadow: 0.4vw 0.2vh 6px black;
+    margin-left: 2vw;
+  }
+  
+  .lot-print{
+    height: 37%;
+    width: 20%;
+    padding-bottom: 3vh;
+    background-color: rgb(145, 145, 145);
+    box-shadow: 0.7vw 0.4vh 10px black;
+    margin-left: 3vw;
+    margin-right: 1vw;
+    margin-top: 2vh;
+    border-radius: 1rem;
+    transition: var(--transStandSetting);
+  }
+  .print-lots-window{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    height: 87.15%;
+    width: 100%;
+    margin-top: 0vh;
+    overflow: auto;
+    word-wrap: break-word;
+    background-color: transparent;
+    
+    scrollbar-width: thin;
+    scrollbar-color: #272727e9 #7474744a;
+}
+.print-lots-window::-webkit-scrollbar {
+    
+    width: 8px;
+}
+.print-lots-window::-webkit-scrollbar-track {
+   background: #7474744a;
+   border-radius: 1rem;
+}
+.print-lots-window::-webkit-scrollbar-thumb {
+   background-color: #272727e9;
+   border-radius: 1rem;
+    
+}
+/*3d style*/
+/* none */
+@media(max-width:700px){
+    .download-link-2{
+        font-size: 0.5em;
+    }
+}

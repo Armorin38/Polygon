@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 595.28 841.89" style="enable-background:new 0 0 595.28 841.89;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E28B00;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:none;stroke:#E28B00;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{font-family:'CenturyGothic-Bold';}
+	.st5{font-size:96px;}
+</style>
+<path class="st0" d="M178.33,187.05H50.05c-2.89,0-5.24-2.35-5.24-5.24V53.52c0-2.89,2.35-5.24,5.24-5.24h128.29
+	c2.89,0,5.24,2.35,5.24,5.24v128.29C183.57,184.7,181.23,187.05,178.33,187.05z"/>
+<g>
+	<circle class="st1" cx="59.94" cy="63.92" r="9"/>
+	<circle class="st1" cx="168.44" cy="63.92" r="9"/>
+	<circle class="st1" cx="168.44" cy="171.42" r="9"/>
+	<circle class="st1" cx="59.94" cy="171.42" r="9"/>
+	<g>
+		<path class="st2" d="M168.01,72.92c-1.08,0-2.11-0.2-3.07-0.55v90.24c0.96-0.35,1.99-0.55,3.07-0.55c1.41,0,2.74,0.33,3.93,0.91
+			V72.01C170.75,72.58,169.42,72.92,168.01,72.92z"/>
+		<path class="st2" d="M159.89,174.92c-0.56-1.17-0.88-2.47-0.88-3.86c0-1.11,0.21-2.16,0.58-3.14H68.37
+			c0.37,0.98,0.58,2.04,0.58,3.14c0,1.38-0.32,2.69-0.88,3.86H159.89z"/>
+		<path class="st2" d="M59.94,162.06c1.44,0,2.79,0.35,4,0.95V71.76c-1.21,0.6-2.56,0.95-4,0.95c-1.05,0-2.06-0.19-3-0.52v90.4
+			C57.88,162.25,58.89,162.06,59.94,162.06z"/>
+		<path class="st2" d="M68.34,66.92h91.2c-0.33-0.94-0.52-1.95-0.52-3c0-1.44,0.35-2.79,0.95-4H68.1c0.54,1.15,0.84,2.43,0.84,3.79
+			C68.94,64.84,68.72,65.92,68.34,66.92z"/>
+	</g>
+</g>
+<g>
+	<polygon class="st2" points="140.37,130.92 118.37,140.99 118.37,111.84 140.37,101.77 	"/>
+	<polygon class="st2" points="117.15,140.99 88.01,133.27 88.01,104.13 117.15,111.84 	"/>
+	<polygon class="st2" points="117.76,110.88 89.57,103.5 112.14,94.35 139.04,101.4 	"/>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 188.7012 146.1295)" class="st3 st4 st5">Polygon</text>
+</g>
+</svg>

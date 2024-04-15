@@ -1,0 +1,52 @@
+/* переменные */
+:root{
+    --content-height: 115vh; --firstDesignColorBlack: #272727; --secondDesignColorOrange: #FF652F;
+    --thirdDesignColorGrey: #747474; --transStandSetting: all 0.3s; --standBoxShadowSet: 0.7vw 0.4vh 10px black;
+    --standTextShadow:2px 0px 2px rgba(0, 0, 0, 0.8); --connectionFontFamilySCP:'Source Code Pro', monospace;
+}
+/* end переменные */
+#myorders-list{
+    width: 100%;
+    height: 90%;
+    background-color: transparent;
+    border-radius: 1rem;
+    
+    margin-top: 5%;
+    overflow: auto;
+    word-wrap: break-word;
+}
+.ord-div{
+    width: 80%;
+    height: 20vh;
+    background-color: var(--firstDesignColorBlack);
+    color: var(--secondDesignColorOrange);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: var(--standBoxShadowSet);
+    margin-top: 4vh;
+    margin-left: 10%;
+    border-radius: 1rem;
+    border: 2px solid #272727;
+    transition: all 0.3s;
+}
+.ord-div:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 1vw 2vh 8px rgba(0, 0, 0, 0.495);
+}
+.lot-img{
+    height: 100%;
+    width: auto;
+}
+.lot-name, .lot-price{
+    color: var(--secondDesignColorOrange);
+    font-size: 5vh;
+    text-shadow: var(--standTextShadow);
+    transition: all 0.3;
+
+}
+.lot-name:hover, .lot-price:hover{
+    
+    transform: scale(1.1,1.1);
+}
+

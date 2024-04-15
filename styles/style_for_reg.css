@@ -1,0 +1,184 @@
+/* default style */
+::selection{
+    color: transparent;
+    background-color: #FF652F;
+    text-shadow: 0 0 2px white;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+/* end default style */
+.reg-body{
+	background-color: rgb(43, 43, 43);
+    font-family: 'Source Code Pro', monospace;
+	text-decoration: none;
+}
+.reg-form {
+    margin-left: 30vw;
+    margin-top: 5vw;
+    width: 40%;
+    height: 104vh;
+	background-color: #272727;
+    border: 1px solid rgba(0, 0, 0, 0.249);
+    border-radius: 1rem;
+    box-shadow: 0.7vw 0.4vh 10px black;
+	
+}
+
+.buttonvhod {
+    border-radius: 0.3rem;
+    margin-top: 12vh;
+    color: White;
+    font-size: 1.3em;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: 0.6vw;
+	
+	text-shadow: 0.4vw 0.2vh 7px black;
+    transition: all 0.2s;
+}
+.buttonvhod:hover {
+    transform: scale(1.1,1.1);
+  text-shadow: 0.4vw 0.4vh 3px black;
+  color: #FF652F;
+  margin-top: 11vh;
+  cursor: pointer;
+}
+
+.pr_registr {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.email, .login, .password  {
+    text-align: left;
+    margin-left: 6vw;
+    margin-top: 4vh;
+    color: White;
+    font-size: 1.3em;	
+    text-shadow: 0.4vw 0.2vh 7px black;
+    cursor: default;  
+}
+.text-zone {
+    text-align: left;
+    color: white;
+	width: 70%;
+    
+    font-size: 13pt;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 5vw;
+    margin-top: 1vh;
+    background-color: #414141;
+    border: 0.2em solid rgb(0, 0, 0);
+    box-shadow: 0.4vw 0.3vh 10px black;
+    transition: all 1s;
+}
+.text-zone:hover{
+    transform: scale(1.1,1.1);
+    margin-top: 1.5vh;
+    box-shadow: 0.7vw 0.4vh 3px black;
+}
+.text-zone:active{
+    transform: scale(1.1,1.1);
+    margin-top: 1.5vh;
+    box-shadow: 0.7vw 0.4vh 3px black;
+}
+.enter-button {
+    margin-top: 10vh;
+    margin-left: 10%;
+    color: White;
+    background-color: transparent;
+    border-color: #FF652F;
+    font-size: 1.5em;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: 0.6vw;
+    font-family: 'Source Code Pro', monospace;
+	text-shadow: 0.4vw 0.2vh 7px black;
+    transition: all 0.2s;
+}
+.enter-button:hover {
+    transform: scale(1.1,1.1);
+    text-shadow: 0.4vw 0.4vh 3px black;
+    color: #FF652F;
+    cursor: pointer;
+}
+.buttonback {
+    width: 35%;
+    height: 6vh;
+    border-radius: 3vw;
+   
+    color: white;
+	font-size: 1em;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: 0.6vw;
+    font-family: 'Source Code Pro', monospace;
+	text-shadow: 0.4vw 0.2vh 7px black;
+    transition: all 0.2s;
+    margin-left: 32%;
+    margin-top: 6vh;
+}
+.buttonback:hover {
+    transform: scale(1.1,1.1);
+    text-shadow: 0.4vw 0.4vh 3px black;
+    color: #FF652F;
+    margin-top: 5vh;
+    cursor: pointer;
+}
+
+.vspWIN{
+	margin-top: 2vh;
+	border: 3px solid #004e80;
+	color: White;
+	font-size: 3vh;
+	text-shadow: 1px 1px 2px black;
+	font-weight: bold;
+}
+.registration{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    margin-left: 30%;
+    transition: all 0.3s;
+}
+.registration:hover{
+    cursor: default;
+}
+
+/*macros style*/
+@media (max-width:900px){
+    .registration{
+        font-size: 1.2em;
+    }
+    .buttonvhod{
+        font-size: 1em;
+    }
+    .enter-button{
+        font-size: 0.5em;
+    }
+   
+}
+@media (max-width:500px){
+    .registration{
+        font-size: 1.2em;
+        margin-left: 20;
+    }
+}
+@media (max-height:520px){
+    .pr_registr{
+        height: 110vh;
+    }
+}
+@media (max-height:490px){
+    .pr_registr{
+        height: 130vh;
+    }
+}
+
+/*end macros style*/

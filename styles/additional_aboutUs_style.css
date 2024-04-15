@@ -1,0 +1,29 @@
+/* переменные */
+:root{
+    --content-height: 115vh; --firstDesignColorBlack: #272727; --secondDesignColorOrange: #FF652F;
+    --thirdDesignColorGrey: #747474; --transStandSetting: all 0.3s; --standBoxShadowSet: 0.7vw 0.4vh 10px black;
+    --standTextShadow:2px 0px 2px rgba(0, 0, 0, 0.8); --connectionFontFamilySCP:'Source Code Pro', monospace;
+}
+/* end переменные */
+#logo_us{
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+}
+#logotype{
+    width: 100%;
+    height: 20%;
+    
+}
+#text-zone{
+    width: 100%;
+    height: 80%;
+    display: inline;
+}
+.paragraph{
+    color: white;
+    font-family: var(--connectionFontFamilySCP);
+    text-shadow: var(--standTextShadow);
+    font-size: 1.8vw;
+    text-align: center;
+}
